@@ -34,6 +34,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NadavFlask1\" />
+    <Folder Include="NadavFlask1\Models\" />
     <Folder Include="NadavFlask1\static\" />
     <Folder Include="NadavFlask1\static\content\" />
     <Folder Include="NadavFlask1\static\fonts\" />

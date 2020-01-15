@@ -16,16 +16,6 @@ def home():
         year=datetime.now().year,
     )
 
-@app.route('/contact')
-def contact():
-    """Renders the contact page."""
-    return render_template(
-        'contact.html',
-        title='Contact',
-        year=datetime.now().year,
-        message='Your contact page.'
-    )
-
 @app.route('/about')
 def about():
     """Renders the about page."""
@@ -33,7 +23,7 @@ def about():
         'about.html',
         title='About',
         year=datetime.now().year,
-        message='Description about my pictures album.'
+        message='Description about my pictures album'
     )
 
 @app.route('/album')
@@ -43,5 +33,4 @@ def album():
         'album.html',
         title='Album',
         year=datetime.now().year,
-        message='Description about my pictures album.'
     )
